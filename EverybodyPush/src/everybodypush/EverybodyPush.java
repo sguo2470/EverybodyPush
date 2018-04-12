@@ -16,6 +16,12 @@ public class EverybodyPush {
         Scanner scnr = new Scanner(System.in);
         String input = "";
         System.out.println("Hello my name is Siri, how may I help I?");
+        System.out.println("Enter a question");
+        input = scnr.nextLine();
+        if(input.equals("What is your name?"))
+        {
+            System.out.println("My name is Siri!");
+        }
         
     }
     
