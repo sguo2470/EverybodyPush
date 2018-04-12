@@ -1,9 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package everybodypush;
+import java.util.Scanner;
 
 /**
  *
@@ -15,8 +11,12 @@ public class EverybodyPush {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello World???");
-        System.out.println("IST is for winners.");
+//        System.out.println("Hello World???");
+//        System.out.println("IST is for winners.");
+        Scanner scnr = new Scanner(System.in);
+        String input = "";
+        System.out.println("Hello my name is Siri, how may I help I?");
+        
     }
     
 }
