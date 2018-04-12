@@ -24,5 +24,8 @@ public class Cat {
         this.age = age;
     }
     
+    public void genericMethod(){
+        System.out.println("This is generic");
+    }
     
 }
